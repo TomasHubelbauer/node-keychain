@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    // Make TypeScript look at JavaScript
+    "allowJs": true,
+    // Make TypeScript report errors and warnings for JavaScript
+    "checkJs": true,
+    // Allow modern syntax
+    "target": "esnext",
+    // Allow modern modules (ESM)
+    "module": "esnext",
+    // Prevent TypeScript from attempting to generate JavaScript files
+    "noEmit": true,
+    // Turn on all diagnostics for improving code quality
+    "strict": true,
+    // Make TypeScript resolve modules using ESM
+    "moduleResolution": "node"
+  }
+}
